@@ -13,11 +13,6 @@ public class introActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
 
-        new Handler().postDelayed(new Runnable(){
-            @Override
-            public void run(){
 
-            }
-        },delayMillis:2000);
     }
 }
